@@ -8,6 +8,5 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-    //   "node-fetch": "^3.0.0" // 必要なら追加
     }
   }

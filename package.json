@@ -4,9 +4,9 @@
   "description": "Simple static site with Tesla OAuth for Netlify",
   "private": true,
   "scripts": {
-    "dev": "netlify dev" // ローカルテスト用にNetlify CLIを使う場合 (任意)
+    "dev": "netlify dev" 
   },
   "devDependencies": {
-    "netlify-cli": "^17.0.0" // ローカルテスト用にNetlify CLIをインストールする場合 (任意)
+    "netlify-cli": "^17.0.0" 
   }
 }
