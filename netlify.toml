@@ -1,0 +1,13 @@
+# Netlify の基本的な設定
+[build]
+  command = ""                # 静的ファイルのみなのでビルドコマンド不要
+  publish = "public"          # ★ 公開するディレクトリを 'public' に指定
+  functions = "netlify/functions" # Netlify Functionsのディレクトリ
+
+# Node.jsのバージョン指定（任意）
+[build.environment]
+  NODE_VERSION = "18"
+
+# Node.jsの関数ランタイム設定（推奨）
+[functions]
+  node_bundler = "esbuild"

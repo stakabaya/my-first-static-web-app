@@ -1,0 +1,13 @@
+{
+    "name": "netlify-tesla-functions",
+    "version": "1.0.0",
+    "description": "Netlify Functions for Tesla App",
+    "main": "oauth-callback.js",
+    "scripts": {},
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      // "node-fetch": "^3.0.0" // 必要なら追加
+    }
+  }

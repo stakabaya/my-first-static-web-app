@@ -1,21 +1,36 @@
 * {
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-html, body {
-  margin: 0;
-  border: 0;
-  padding: 0;
-  background-color: #fff;
-}
-
-main {
-  margin: auto;
-  width: 50%;
-  padding: 20px;
-}
-
-main > h1 {
-  text-align: center;
-  font-size: 3.5em;
-}
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  html, body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+  }
+  
+  main {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  main > h1, main > h2 { /* h2にも適用 */
+    text-align: center;
+    font-size: 3.5em;
+  }
+  
+  /* ボタンや段落用のスタイルを少し追加（任意） */
+  p {
+    text-align: center;
+  }
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  hr {
+    margin: 30px 0;
+  }
