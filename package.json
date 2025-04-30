@@ -1,7 +1,12 @@
 {
-  "name": "vanilla-basic",
+  "name": "netlify-tesla-vanilla-app",
   "version": "1.0.0",
-  "scripts": { 
-    "start": "sirv ./src public --cors --single --no-clear --port 8000"
+  "description": "Simple static site with Tesla OAuth for Netlify",
+  "private": true,
+  "scripts": {
+    "dev": "netlify dev" 
+  },
+  "devDependencies": {
+    "netlify-cli": "^17.0.0" 
   }
 }
